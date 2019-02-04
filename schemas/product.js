@@ -36,9 +36,14 @@ export default {
       ]
     },
     {
-      title: 'Price',
+      title: 'Price SEK',
       name: 'price',
       type: 'number'
+    },
+    {
+      quantity: 'Unlimited',
+      name: 'quantity',
+      type: 'string'
     },
     {
       title: 'Variants',
