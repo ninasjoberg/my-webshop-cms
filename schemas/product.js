@@ -76,13 +76,14 @@ export default {
       ]
     },
     {
-      name: 'categories',
       title: 'Categories',
+      name: 'categories',
       type: 'array',
       of: [
         {
-          type: 'reference',
-          to: {type: 'category'}
+          title: 'Category',
+          name: 'category',
+          type: 'productCategory',
         }
       ]
     },
