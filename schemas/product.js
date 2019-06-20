@@ -81,9 +81,8 @@ export default {
       type: 'array',
       of: [
         {
-          title: 'Category',
-          name: 'category',
-          type: 'productCategory',
+          type: 'reference',
+          to: {type: 'category'}
         }
       ]
     },
