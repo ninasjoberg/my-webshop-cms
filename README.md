@@ -6,6 +6,8 @@
 
 
 ## Develop:
+`npm install -g @sanity/cli`
+
 `sanity start`
 
 `sanity deploy`

@@ -34,14 +34,6 @@ export default {
           },
           fields: [
             {
-              name: 'caption',
-              type: 'string',
-              title: 'Caption',
-              options: {
-                isHighlighted: true // <-- make this field easily accessible
-              }
-            },
-            {
               name: 'alt',
               type: 'string',
               title: 'Alt',
@@ -82,7 +74,7 @@ export default {
       of: [
         {
           type: 'reference',
-          to: {type: 'category'}
+          to: { type: 'category' }
         }
       ]
     },

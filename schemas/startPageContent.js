@@ -1,21 +1,12 @@
 export default {
-  name: 'page',
-  title: 'Page',
-  type: 'document',
+  name: 'startPageContent',
+  title: 'Startpage content',
+  type: 'object',
   fields: [
     {
       name: 'title',
       title: 'Title',
       type: 'string'
-    },
-    {
-      name: 'slug',
-      title: 'Slug',
-      type: 'slug',
-      options: {
-        source: 'title',
-        maxLength: 96
-      }
     },
     {
       name: 'images',
