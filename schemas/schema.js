@@ -10,7 +10,6 @@ import page from './page'
 import product from './product'
 import productVariant from './productVariant'
 import startPage from './startPage'
-import startPageContent from './startPageContent'
 
 import localeString from './locale/String'
 import localeText from './locale/Text'
@@ -36,6 +35,5 @@ export default createSchema({
     localeBlockContent,
     localeString,
     productVariant,
-    startPageContent,
   ])
 })
