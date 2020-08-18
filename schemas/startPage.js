@@ -38,5 +38,19 @@ export default {
           title: 'Body',
           type: 'localeBlockContent'
         },
+        {
+          name: 'order',
+          title: 'Order',
+          type: 'number',
+        }
+      ],
+      orderings: [
+        {
+          title: 'Sort order',
+          name: 'sortOrder',
+          by: [
+            {field: 'sortOrder', direction: 'desc'}
+          ]
+        },
       ]
   }
