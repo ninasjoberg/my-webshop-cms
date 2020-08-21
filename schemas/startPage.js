@@ -17,9 +17,6 @@ export default {
           of: [
             {
               type: 'image',
-              options: {
-                hotspot: true
-              },
               fields: [
                 {
                   name: 'alt',
@@ -27,8 +24,16 @@ export default {
                   title: 'Alt',
                   options: {
                     isHighlighted: true // <-- make this field easily accessible
-                  }
-                }
+                  },
+                },
+                {
+                  name: 'link',
+                  title: 'Link',
+                  type: 'string',
+                  options: {
+                    isHighlighted: true // <-- make this field easily accessible
+                  },
+                },
               ]
             }
           ]
