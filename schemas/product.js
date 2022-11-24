@@ -19,7 +19,7 @@ export default {
     },
     {
       name: "titleForGoogleSearch",
-      title: "TitleForGoogleSearch",
+      title: "Title for google search",
       type: "string",
     },
     {
@@ -94,6 +94,12 @@ export default {
           to: { type: "category" },
         },
       ],
+    },
+    {
+      title: "Out of stock",
+      name: "outOfStock",
+      type: "boolean",
+      initialValue: false,
     },
     {
       name: "order",
