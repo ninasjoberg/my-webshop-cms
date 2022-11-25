@@ -96,6 +96,17 @@ export default {
       ],
     },
     {
+      title: "Collections",
+      name: "collections",
+      type: "array",
+      of: [
+        {
+          type: "reference",
+          to: { type: "collection" },
+        },
+      ],
+    },
+    {
       title: "Out of stock",
       name: "outOfStock",
       type: "boolean",
