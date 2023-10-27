@@ -9,6 +9,11 @@ export default {
       type: "string",
     },
     {
+      name: "titleExtended",
+      title: "Title extended for product page",
+      type: "string",
+    },
+    {
       name: "slug",
       title: "Slug",
       type: "slug",
@@ -56,7 +61,12 @@ export default {
       type: "number",
     },
     {
-      quantity: "Unlimited",
+      title: "Amount st/par",
+      name: "amount",
+      type: "string",
+    },
+    {
+      title: "Quantity in stock",
       name: "quantity",
       type: "string",
     },
