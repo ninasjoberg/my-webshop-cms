@@ -22,17 +22,11 @@ export default {
                   name: 'alt',
                   type: 'string',
                   title: 'Alt',
-                  options: {
-                    isHighlighted: true // <-- make this field easily accessible
-                  },
                 },
                 {
                   name: 'link',
                   title: 'Link',
                   type: 'string',
-                  options: {
-                    isHighlighted: true // <-- make this field easily accessible
-                  },
                 },
               ]
             }
