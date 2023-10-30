@@ -15,7 +15,6 @@
     "sanity"
   ],
   "dependencies": {
-    "@sanity/orderable-document-list": "^1.1.0",
     "@sanity/vision": "^3.18.1",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
