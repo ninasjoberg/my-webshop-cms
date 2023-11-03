@@ -123,7 +123,7 @@ export default {
       name: "order",
       title: "Order",
       type: "number",
-      hidden: true,
+      initialValue: 0,
     },
   ],
 
