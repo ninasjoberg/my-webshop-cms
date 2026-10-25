@@ -7,19 +7,23 @@
   "author": "Nina Sjöberg <nina.sjoberg@gmail.com>",
   "license": "UNLICENSED",
   "scripts": {
-    "start": "sanity start",
+    "start": "sanity dev",
     "build": "sanity build",
-    "dev": "sanity dev"
+    "dev": "sanity dev",
+    "preview": "sanity preview"
   },
   "keywords": [
     "sanity"
   ],
   "dependencies": {
-    "@sanity/vision": "^3.18.1",
+    "@sanity/vision": "^6.20.0",
     "prop-types": "^15.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "sanity": "^3.18.1",
-    "styled-components": "^5.3.6"
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "sanity": "^6.20.0",
+    "styled-components": "^6.6.0"
+  },
+  "engines": {
+    "node": ">=22.12"
   }
 }

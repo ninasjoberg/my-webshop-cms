@@ -127,11 +127,27 @@ export default {
     },
   ],
 
+  orderings: [
+    {
+      title: "Order, low to high",
+      name: "orderAsc",
+      by: [{ field: "order", direction: "asc" }],
+    },
+    {
+      title: "Order, high to low",
+      name: "orderDesc",
+      by: [{ field: "order", direction: "desc" }],
+    },
+  ],
+
   preview: {
     select: {
       title: "title",
-      manufactor: "manufactor.title",
-      media: "defaultProductVariant.images[0]",
+      order: "order",
+      media: "images.0",
+    },
+    prepare({ title, order, media }) {
+      return { title, subtitle: `Order: ${order ?? "–"}`, media };
     },
   },
 };
